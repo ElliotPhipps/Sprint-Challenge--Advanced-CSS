@@ -1,13 +1,10 @@
 // Mixins Here
-// .bordered(@width, @color){
-//     border:@width dotted @color;
-// }
-  
-// .center() {
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-// }
+.colored(@width, @color) {
+    background-color: @color;
+    width: @width;
+    // justify-content: center;
+}
+
 .custom-layout(@justify, @align) {
     display: flex;
     justify-content: @justify;
@@ -32,7 +29,3 @@
       color: @bg-color;
     }
 }
-
-// .btn-container {
-//     .custom-layout(flex-start, center);
-// }
