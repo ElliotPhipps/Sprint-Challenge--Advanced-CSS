@@ -164,6 +164,8 @@ p {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  max-width: 900px;
+  margin: 0 auto;
   background-color: #dee2e6;
   width: 100%;
 }
